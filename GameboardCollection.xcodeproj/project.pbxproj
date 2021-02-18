@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		8657CBDD25DE60FA00E6B2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657CBDC25DE60FA00E6B2F5 /* AppDelegate.swift */; };
 		8657CBDF25DE60FA00E6B2F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657CBDE25DE60FA00E6B2F5 /* SceneDelegate.swift */; };
-		8657CBE125DE60FA00E6B2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657CBE025DE60FA00E6B2F5 /* ViewController.swift */; };
 		8657CBE425DE60FA00E6B2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8657CBE225DE60FA00E6B2F5 /* Main.storyboard */; };
 		8657CBE725DE60FA00E6B2F5 /* GameboardCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8657CBE525DE60FA00E6B2F5 /* GameboardCollection.xcdatamodeld */; };
 		8657CBE925DE610000E6B2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8657CBE825DE610000E6B2F5 /* Assets.xcassets */; };
 		8657CBEC25DE610000E6B2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8657CBEA25DE610000E6B2F5 /* LaunchScreen.storyboard */; };
+		8657CBF625DE653800E6B2F5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657CBF525DE653800E6B2F5 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8657CBD925DE60FA00E6B2F5 /* GameboardCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameboardCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8657CBDC25DE60FA00E6B2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8657CBDE25DE60FA00E6B2F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8657CBE025DE60FA00E6B2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8657CBE325DE60FA00E6B2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8657CBE625DE60FA00E6B2F5 /* GameboardCollection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameboardCollection.xcdatamodel; sourceTree = "<group>"; };
 		8657CBE825DE610000E6B2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8657CBEB25DE610000E6B2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8657CBED25DE610000E6B2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8657CBF525DE653800E6B2F5 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		8657CBDB25DE60FA00E6B2F5 /* GameboardCollection */ = {
 			isa = PBXGroup;
 			children = (
+				8657CBF525DE653800E6B2F5 /* MainTableViewController.swift */,
 				8657CBDC25DE60FA00E6B2F5 /* AppDelegate.swift */,
 				8657CBDE25DE60FA00E6B2F5 /* SceneDelegate.swift */,
-				8657CBE025DE60FA00E6B2F5 /* ViewController.swift */,
 				8657CBE225DE60FA00E6B2F5 /* Main.storyboard */,
 				8657CBE825DE610000E6B2F5 /* Assets.xcassets */,
 				8657CBEA25DE610000E6B2F5 /* LaunchScreen.storyboard */,
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8657CBF625DE653800E6B2F5 /* MainTableViewController.swift in Sources */,
 				8657CBE725DE60FA00E6B2F5 /* GameboardCollection.xcdatamodeld in Sources */,
-				8657CBE125DE60FA00E6B2F5 /* ViewController.swift in Sources */,
 				8657CBDD25DE60FA00E6B2F5 /* AppDelegate.swift in Sources */,
 				8657CBDF25DE60FA00E6B2F5 /* SceneDelegate.swift in Sources */,
 			);
